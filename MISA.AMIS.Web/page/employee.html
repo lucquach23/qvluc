@@ -3,11 +3,23 @@
 <head>
 	<meta charset="utf-8" />
 	<title></title>
+	<!--css fontawesome-->
+	<link href="/content/icon/fontawesome.css" rel="stylesheet" />
+	<link href="/content/icon/all.css" rel="stylesheet" />
+	<link href="/content/icon/brands.css" rel="stylesheet" />
+	<link href="/content/icon/solid.css" rel="stylesheet" />
+	<!--css page-->
 	<link href="/css/common/main.css" rel="stylesheet" />
 	<link href="/css/common/header.css" rel="stylesheet" />
 	<link href="/css/common/navbar.css" rel="stylesheet" />
 	<link href="/css/page/employee.css" rel="stylesheet" />
 	<link href="/css/common/content.css" rel="stylesheet" />
+	<link href="/css/common/button.css" rel="stylesheet" />
+	<link href="/css/common/toolbar.css" rel="stylesheet" />
+	<!--js fontawesome-->
+	<script src="/content/icon/js/all.min.js"></script>
+	<script src="/content/icon/js/fontawesome.js"></script>
+	<script src="/content/icon/js/brands.js"></script>
 </head>
 <body>
 	<div class="navbar">
@@ -19,25 +31,33 @@
 		</div>
 		<div class="navbar-content">
 			<div class="nav-item">
-				<div class="nav-item-icon"></div>
+				<div class="nav-item-icon"><i class="fa fa-user"></i></div>
 				<div class="nav-item-text">Lập hồ sơ điện tử</div>
 			</div>
 			<div class="nav-item">
-				<div class="nav-item-icon"></div>
+				<div class="nav-item-icon"><i class="far fa-album-collection"></i></div>
 				<div class="nav-item-text">Lập hồ sơ giấy</div>
 			</div>
 			<div class="nav-item">
-				<div class="nav-item-icon"></div>
+				<div class="nav-item-icon"><i class="far fa-chart-bar"></i></div>
 				<div class="nav-item-text">Theo dõi chi</div>
 			</div>
 			<div class="nav-item">
-				<div class="nav-item-icon"></div>
-				<div class="nav-item-text">Hồ sơ lao động</div>
+				<div class="nav-item-icon"><i class="fas fa-cogs"></i></div>
+				<div class="nav-item-text">Thiết lập hệ thống</div>
+			</div>
+			<div class="nav-item">
+				<div class="nav-item-icon"><i class="fas fa-chalkboard"></i></div>
+				<div class="nav-item-text">Khách hàng apple</div>
+			</div>
+			<div class="nav-item">
+				<div class="nav-item-icon"><i class="far fa-eye"></i></div>
+				<div class="nav-item-text">Tựa game</div>
 			</div>
 		</div>
 	</div>
 	<div class="header">
-		<div class="header-box">
+		
 			<div class="header-left">
 				<select >
 					<option >Nhà hàng Hải Dương</option>
@@ -47,16 +67,36 @@
 				</select>
 			</div>
 			<div class="header-right">
-				<div class="header-right-box">
-					<img src="/content/img/toggle.PNG" />
-					<p>Quach Van Luc</p>
-					<img src="/content/img/icon_3_cham.jpg" />
-				</div>
+				<div class="icon-header icon-avt"></div>
+				<div class="text-header-right">Quách Văn Lực</div>
+				<div class="icon-header icon-opiton"></div>
+				
 				
 			</div>
 		</div>
-		
+	<div class="content">
+		<div class="header-content">
+			<div class="title">DANH SÁCH NHÂN VIÊN</div>
+			<div class="content-feature">
+				<button class="m-btn m-btn-default">
+					<div class="icon-add"><i class="fa fa-plus"></i></div>
+					<div class="btn-text">Thêm mới</div>
+				</button>
+			</div>
+		</div>
+		<div class="filter-bar">
+			<div class="filter-left">
+				<input type="text" placeholder="Tìm kiếm theo mã, tên nhân viên" />
+				<select>
+					<option>Phòng đào tạo</option>
+					<option>Phòng đào tạo</option>
+					<option>Phòng đào tạo</option>
+				</select>
+			</div>
+			<div class="filter-right"></div>
+		</div>
+		<div class="grid"></div>
+		<div class="pading-bar"></div>
 	</div>
-	<div class="content"><b>content</b></div>
 </body>
 </html>
